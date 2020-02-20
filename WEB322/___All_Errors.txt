@@ -1,0 +1,5 @@
+CorrelationId: 9c73b392-92f3-46ef-b037-49810d52b56b
+UTC DateTime: 2/20/2020 5:46:17 PM
+
+The following file/folder has not been downloaded
+1. .git/objects

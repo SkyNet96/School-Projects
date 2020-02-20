@@ -1,0 +1,121 @@
+/* Name: Ioannis Bimpos
+Student Number: 062670146
+Section: SF 
+*/
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00B4CC;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 60px;
+  cursor: pointer;
+  border-right: 1px solid rgb(126, 120, 120);
+}
+
+body {
+  background-color: rgb(126, 120, 120);
+}
+
+#movieLists:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.individualMovies {
+  float: left;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border:1px solid #ccc; */
+}
+
+.posters {
+  max-width: 40%;
+  max-height: 80%;
+  float: left;
+  border-radius: 20px;
+}
+
+.titles {
+  text-align: center;
+  text-shadow: 2px 1px rgba(45, 60, 70, 0.733);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+#infront {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  background-color: #68a3bb;
+  border: 5px solid #6f879b;
+  border-radius: 20px;
+}
+
+#close {
+  float: right;
+  padding: 2px 5px;
+  background: rgb(204, 204, 204);
+  border-radius: 20px;
+}
+
+#close:hover {
+  float: right;
+  cursor: pointer;
+  padding: 2px 5px;
+  background: rgb(204, 204, 204);
+  color: white;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+
+#searchBox {
+  float: center;
+  width: 96%;
+  border: 2px solid #047aa8;
+  padding: 0.7%;
+  height: 70%;
+  border-radius: 20px;
+  color: black;
+}
+
+.searchBtn {
+  position: absolute;  
+  right: 1%;
+  padding: 0.7%;
+  width: 10%;
+  height: 100%;
+  border: 2px solid #047aa8;
+  background: #00B4CC;
+  text-align: center;
+  color:white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 100%;
+}

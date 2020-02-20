@@ -1,0 +1,32 @@
+<!-- 
+Name: Ioannis Bimpos
+Student Number: 062670146
+Section: SFF -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id='mainBtn' type = 'button' onclick="window.location.href = 'movieIndex.html'">Main Page</li>
+            <li id='searchBtn' type='button' onclick="window.location.href = 'searchIndex.html'">Search</li>
+        </ul>
+    </nav>
+    <h1> Movie Search Engine</h1>
+    <div class='search'>
+        <input type='text' id='searchBox' placeholder = 'Which movie are you looking for?'>
+        <input type='button' id='searchIdButton' class = 'searchBtn' value='Search'>
+    </div> <br> <br>
+    <div id='moviesList'> </div>
+
+
+    <script src="searchScript.js"></script>
+</body>
+</html>

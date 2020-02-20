@@ -1,0 +1,31 @@
+<!-- 
+Name: Ioannis Bimpos
+Student Number: 062670146
+Section: SFF -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABC Cinema Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id='main' type = 'button' onclick="window.location.href = 'movieIndex.html'">Main Page</li>
+            <li id='search' type='button' onclick="window.location.href='searchIndex.html'">Search</li>
+        </ul>
+    </nav>
+    <h1>Now Playing in Theaters</h1> <br>
+    <div id="moviesList">
+        <div id="infront">
+            <span id='close' onclick='this.style.display="none"; this.parentNode.style.display="none";'>x</span>
+        </div>       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
